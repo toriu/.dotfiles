@@ -7,9 +7,12 @@ return require('packer').startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
 
+--Colorschemas
   use("gruvbox-community/gruvbox")
   use("folke/tokyonight.nvim")
   use({"catppuccin/nvim", as = "catppuccin" })
   use({ 'rose-pine/neovim', as = 'rose-pine' })
- 
+
+--VimBeGood
+  use 'ThePrimeagen/vim-be-good'
 end)

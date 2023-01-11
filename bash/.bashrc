@@ -93,4 +93,3 @@ export NVM_DIR="$HOME/.nvm"
 #eval "$(starship init bash)"
 
 unset rc
-
